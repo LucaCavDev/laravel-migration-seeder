@@ -19,7 +19,7 @@ class CreateBrandsTable extends Migration
 
             $table->string('name', 50);
             $table->string('logo', 100);
-            $table->string('n_locations', 100);
+            $table->integer('n_locations') -> unsigned();
 
             $table->timestamps();
 
