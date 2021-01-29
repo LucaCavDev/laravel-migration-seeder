@@ -13,3 +13,7 @@ Route::get('/brand/{id}', 'BrandController@show') -> name('brand-show');
 Route::get('/workers', 'WorkerController@index') -> name('workers-index');
 
 Route::get('/worker/{id}', 'WorkerController@show') -> name('worker-show');
+
+Route::get('/locations', 'LocationController@index') -> name('locations-index');
+
+Route::get('/location/{id}', 'LocationController@show') -> name('location-show');
