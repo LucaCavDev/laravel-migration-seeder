@@ -1,0 +1,13 @@
+body {
+  background-color: purple;
+  color: white;
+}
+
+body li {
+  padding-bottom: 10px;
+}
+
+body a {
+  color: white;
+}
+
